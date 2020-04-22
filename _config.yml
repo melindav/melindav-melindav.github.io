@@ -1,0 +1,36 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://jekyller.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Melinda Varo's Resume
+name: Melinda Varo
+email: vmp_melinda@yahoo.com
+email_full: mailto:vmp_melinda@yahoo.com
+website: github.io/sustain
+website_full: https://jekyller.github.io/sustain
+github: trending
+twitter: twitter
+tel: +358 453561733
+tel_full: tel:+358453561733
+google_maps: 'https://www.google.com/maps/place/Lehdeskuja+1,+02340+Espoo/@60.182856,24.6671014,17z/data=!3m1!4b1!4m5!3m4!1s0x468df48269851731:0xa928e4035eb504a5!8m2!3d60.1828534!4d24.6692901'
+address:
+  street: Lehdeskuja 1C5
+  postcode: 02340
+  city: Espoo
+  country: Finland
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
